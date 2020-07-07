@@ -15,7 +15,7 @@
     font-size: 15px;
     margin-bottom: 20px;
 }
-.content p {
+.p {
     font-size: 12px;
     margin-bottom: 40px;
     color: #a1b0be;
@@ -48,7 +48,6 @@
         float: left;
         border-color: #a1b0be;
         color: #a1b0be;
-        background-color: transparent;
     } 
     .input-bottom {
         display: inline-block;
@@ -56,8 +55,7 @@
         border-top: 0;
         border-left: 0;
         border-right: 0;
+        border-bottom: 2px solid #a1b0be;
         margin-bottom: 20px;
-        border-color: #a1b0be;
         color: #a1b0be;
-        background-color: transparent;
     } 

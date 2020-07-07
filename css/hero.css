@@ -40,7 +40,7 @@
             color: white;
             background-color: transparent;
         }
-        .input > .placeholder {
+        .hero > .input ::placeholder {
                 color: white;
             } 
 
