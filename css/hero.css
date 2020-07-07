@@ -1,0 +1,46 @@
+.hero {
+    padding-bottom: 30px;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    text-align: center;
+    min-height: 55vh;
+}
+    .row {
+        display: inline-block;
+        line-height: 20px;
+    }
+        .hero img {
+            display: inline-block;
+            height: 40px;
+            margin-bottom: 20px;
+        }
+        .hero h1 {
+            display: inline-block;
+            width: 100%;
+            text-transform: uppercase ;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            display: inline-block;
+            margin-bottom: 10px;
+            color: #a1b0be;
+
+        }
+        .input {
+            display: inline-block;
+            width: 100%;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            margin-bottom: 20px;
+            border-color: white;
+            color: white;
+            background-color: transparent;
+        }
+        .input > .placeholder {
+                color: white;
+            } 
+
