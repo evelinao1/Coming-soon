@@ -1,0 +1,15 @@
+.pb-lable {
+    display: inline-block;
+    width: 80%;
+    color: #a1b0be;
+}
+.r-lable {
+    display: inline-block;
+    width: 10%;
+    text-align: right;
+    color: #a1b0be;
+}
+.pb-value {
+    display: inline-block;
+    width: 100%;
+}
