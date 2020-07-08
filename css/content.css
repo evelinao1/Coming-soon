@@ -33,7 +33,7 @@
         border-right: 0;
         margin-bottom: 40px;
         float: left;
-        border-color: #a1b0be;
+        border-bottom: 1px solid #a1b0be;
         color: #a1b0be;
         background-color: transparent;
     } 
@@ -46,7 +46,7 @@
         border-right: 0;
         margin-bottom: 40px;
         float: left;
-        border-color: #a1b0be;
+        border-bottom: 1px solid #a1b0be;
         color: #a1b0be;
     } 
     .input-bottom {
@@ -55,7 +55,20 @@
         border-top: 0;
         border-left: 0;
         border-right: 0;
-        border-bottom: 2px solid #a1b0be;
+        border-bottom: 1px solid #a1b0be;
         margin-bottom: 20px;
         color: #a1b0be;
     } 
+    @media ( max-width: 400px ) {
+        .content > .left {
+            width: 100%;
+            margin-right: 5%;
+            margin-left: 5%;
+            margin-bottom: 20px;
+        }
+        .content > .right {
+            width: 100%;
+            margin-right: 5%;
+            margin-left: 5%;
+        }
+    }

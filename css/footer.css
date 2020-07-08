@@ -7,11 +7,16 @@
     border-bottom: 1px solid #fff;
 
 }
-.icons > a {
-    display: inline-block;
-    width: 5%;
-    text-decoration: none;
-    color: white;
+    .icons > .a {
+        display: inline-block;
+        width: 5%;
+        text-decoration: none;
+        color: white;
+}
+    .back-to-top {
+        position: absolute;
+        top: -30px;
+        right: 200px;
 }
 .img {
     display: inline-block;
@@ -19,22 +24,22 @@
     margin-left: 42%;
     margin-bottom: 20px;
 }
-    .par {
+.par {
     display: inline-block;
     width: 20%;
     margin-left: 20%;
     float: left;
     text-align: center;
     color: white;
-    border-right: 1px solid #fff;
+    border-right: 1px solid #fff;    
 }
-    .par-s {
+.par-s {
     display: inline-block;
     width: 20%;
     float: left;
     text-align: center;
     color: white;
-    border-right: 1px solid #fff;
+    border-right: 1px solid #fff;    
 }
 .par-l {
     display: inline-block;
@@ -51,4 +56,27 @@
     margin-top: 10px;
     text-align: center;
     color: white;
+}
+@media ( max-width: 600px ) {
+    .back-to-top {
+        position: absolute;
+        top: -30px;
+        right: 50px;
+}
+    .par {
+        width: 100%;
+        margin-left: 5%;
+        border-right: 0;
+        margin-bottom: 5px;    
+}
+    .par-s {
+        width: 100%;
+        border-right: 0;
+        margin-bottom: 5px;   
+}
+    .par-l {
+        width: 100%;
+        margin-right: 5%;
+        margin-bottom: 5px;
+}
 }
