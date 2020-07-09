@@ -9,10 +9,19 @@
 }
     .icons > .a {
         display: inline-block;
-        width: 5%;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        line-height: 40px;
+        font-size: 20px;
         text-decoration: none;
         color: white;
+        transition: all 0.5s;
 }
+        .a:hover {
+            color: #03A9F5;
+            background-color: white;
+        }
     .back-to-top {
         position: absolute;
         top: -30px;
@@ -39,7 +48,7 @@
     float: left;
     text-align: center;
     color: white;
-    border-right: 1px solid #fff;    
+      
 }
 .par-l {
     display: inline-block;
@@ -48,6 +57,7 @@
     float: left;
     text-align: center;
     color: white;
+    border-left: 1px solid #fff;  
 }
 .text {
     display: inline-block;
@@ -57,6 +67,12 @@
     text-align: center;
     color: white;
 }
+    .a-footer {
+        text-decoration: none;
+        color: white;
+        
+        cursor: pointer;
+    }
 @media ( max-width: 600px ) {
     .back-to-top {
         position: absolute;
@@ -65,18 +81,25 @@
 }
     .par {
         width: 100%;
-        margin-left: 5%;
         border-right: 0;
+        margin-left: 5%;
         margin-bottom: 5px;    
 }
     .par-s {
         width: 100%;
-        border-right: 0;
+        
         margin-bottom: 5px;   
 }
     .par-l {
         width: 100%;
         margin-right: 5%;
         margin-bottom: 5px;
+        border-left: 0;
 }
+}
+@media ( max-width: 400px ) {
+    .back-to-top {
+        position: absolute;
+        top: -15px;
+        right: 50px;
 }

@@ -21,6 +21,7 @@
     color: #a1b0be;
 }
 .link {
+    text-decoration: none;
     color: violet;
     cursor: pointer;
 }

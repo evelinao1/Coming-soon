@@ -3,44 +3,58 @@
     background-image: url(../img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: bottom center;
     background-attachment: fixed;
     text-align: center;
-    min-height: 55vh;
+    min-height: 100vh;
 }
-    .row {
-        display: inline-block;
-        line-height: 20px;
-    }
         .hero img {
             display: inline-block;
-            height: 40px;
-            margin-bottom: 20px;
+            height: 34px;
+            margin-bottom: 40px;
+            object-fit: contain;
         }
         .hero h1 {
             display: inline-block;
             width: 100%;
+            font-size: 60px;
+            margin-bottom: 60px;
             text-transform: uppercase ;
-            margin-bottom: 20px;
         }
         .hero p {
             display: inline-block;
-            margin-bottom: 10px;
-            color: #a1b0be;
-
+            font-size: 20px;
+            line-height: 25px;
+            margin-bottom: 60px;
+            color: #555;
+        }
+        .clock {
+            margin-bottom: 60px;
         }
         .input {
             display: inline-block;
             width: 100%;
-            border-top: 0;
-            border-left: 0;
-            border-right: 0;
+            border: 0;
             margin-bottom: 20px;
             border-bottom: 1px solid #ffffff;
             color: white;
             background-color: transparent;
         }
-        .hero > .input ::placeholder {
+        .input ::placeholder {
                 color: white;
             } 
-
+@media ( max-width: 600px ) {
+    .hero h1 {
+        font-size: 50px;  
+    }
+}
+@media ( max-width: 460px ) {
+    .hero img {
+        margin-bottom: 10px;
+    }
+    .hero h1 {
+        font-size: 20px; 
+        margin-bottom: 40px;
+        margin-top: 20px; 
+    }
+}
