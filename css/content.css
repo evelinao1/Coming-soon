@@ -37,6 +37,7 @@
         border-bottom: 1px solid #a1b0be;
         color: #a1b0be;
         background-color: transparent;
+        outline: none;
     } 
     .input-top-e {
         display: inline-block;
@@ -49,6 +50,7 @@
         float: left;
         border-bottom: 1px solid #a1b0be;
         color: #a1b0be;
+        outline: none;
     } 
     .input-bottom {
         display: inline-block;
@@ -59,6 +61,8 @@
         border-bottom: 1px solid #a1b0be;
         margin-bottom: 20px;
         color: #a1b0be;
+        outline: none;
+        resize: none;
     } 
     @media ( max-width: 400px ) {
         .content > .left {

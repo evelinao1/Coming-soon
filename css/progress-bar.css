@@ -12,4 +12,9 @@
 .pb-value {
     display: inline-block;
     width: 100%;
+    
+}
+#file {
+    background-color: #ccc;
+    color: #00A5F3
 }

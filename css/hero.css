@@ -40,7 +40,7 @@
             color: white;
             background-color: transparent;
         }
-        .input ::placeholder {
+        .input::placeholder {
                 color: white;
             } 
 @media ( max-width: 600px ) {

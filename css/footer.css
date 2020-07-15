@@ -97,9 +97,11 @@
         border-left: 0;
 }
 }
+
 @media ( max-width: 400px ) {
     .back-to-top {
         position: absolute;
         top: -15px;
         right: 50px;
+    }
 }

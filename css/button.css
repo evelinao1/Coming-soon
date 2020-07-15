@@ -17,6 +17,9 @@
         background-color: #E85AA5;
         box-shadow: 0 2px 4px #333333;  
     }
+.right .btn {
+    text-align: right;
+} 
 .btn-circle {
     display: inline-block;
     width: 50px;
